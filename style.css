@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main-section{
+    height: 100vh;
+    width: 100wh;
+    background-color: #303c84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.Circle{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #7094cc;
+    border-radius: 100%;
+}
+
+.topRing{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+  
+    margin: -26% 0;
+    border: 40px solid #303c84;
+    border-radius: 100%;
+    
+}
+
+.bottomRing{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    bottom: -26%;
+    border: 40px solid #303c84;
+    border-radius: 100%;
+    
+}
+
+.leftRing{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    top: 0;
+    bottom: 0; 
+    left: -26%;
+    border: 40px solid #303c84;
+    border-radius: 100%;
+    
+}
+
+.rightRing{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 0;
+    bottom: 0; 
+    right: -26%;
+    margin: auto;
+    border: 40px solid #303c84;
+    border-radius: 100%;
+    
+}
